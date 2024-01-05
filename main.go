@@ -16,9 +16,13 @@ func main() {
 	// addTwoNumbers(&l1, &l2)
 
 	// 003
-	lengthOfLongestSubstring("abcabcbb")
-	lengthOfLongestSubstring("bbbbb")
-	lengthOfLongestSubstring("pwwkew")
-	lengthOfLongestSubstring("")
+	// lengthOfLongestSubstring("abcabcbb")
+	// lengthOfLongestSubstring("bbbbb")
+	// lengthOfLongestSubstring("pwwkew")
+	// lengthOfLongestSubstring("")
+
+	// 004
+	findMedianSortedArrays([]int{1, 1}, []int{2, 2})
+	findMedianSortedArrays([]int{3, 5}, []int{1, 4})
 
 }
