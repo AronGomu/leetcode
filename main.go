@@ -22,7 +22,13 @@ func main() {
 	// lengthOfLongestSubstring("")
 
 	// 004
-	findMedianSortedArrays([]int{1, 1}, []int{2, 2})
-	findMedianSortedArrays([]int{3, 5}, []int{1, 4})
+	// findMedianSortedArrays([]int{1, 1}, []int{2, 2})
+	// findMedianSortedArrays([]int{3, 5}, []int{1, 4})
 
+	// 005
+	longestPalindrome("babad")
+	longestPalindrome("cbbd")
+	longestPalindrome("cc")
+	longestPalindrome("ccc")
+	longestPalindrome("civilwartestingwhetherthatnaptionoranynartionsoconceivedandsodedicatedcanlongendureWeareqmetonagreatbattlefiemldoftzhatwarWehavecometodedicpateaportionofthatfieldasafinalrestingplaceforthosewhoheregavetheirlivesthatthatnationmightliveItisaltogetherfangandproperthatweshoulddothisButinalargersensewecannotdedicatewecannotconsecratewecannothallowthisgroundThebravelmenlivinganddeadwhostruggledherehaveconsecrateditfaraboveourpoorponwertoaddordetractTgheworldadswfilllittlenotlenorlongrememberwhatwesayherebutitcanneverforgetwhattheydidhereItisforusthelivingrathertobededicatedheretotheulnfinishedworkwhichtheywhofoughtherehavethusfarsonoblyadvancedItisratherforustobeherededicatedtothegreattdafskremainingbeforeusthatfromthesehonoreddeadwetakeincreaseddevotiontothatcauseforwhichtheygavethelastpfullmeasureofdevotionthatweherehighlyresolvethatthesedeadshallnothavediedinvainthatthisnationunsderGodshallhaveanewbirthoffreedomandthatgovernmentofthepeoplebythepeopleforthepeopleshallnotperishfromtheearth")
 }

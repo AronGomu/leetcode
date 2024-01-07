@@ -1,9 +1,9 @@
 package main
 
-import "fmt"
+// import "fmt"
 
 func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
-	fmt.Printf("nums1 : %v\nnums2 : %v\n", nums1, nums2)
+	// fmt.Printf("nums1 : %v\nnums2 : %v\n", nums1, nums2)
 
 	index1 := 0
 	index2 := 0
@@ -12,7 +12,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 
 	for {
 
-		fmt.Printf("index: %v & %v\n", index1, index2)
+		// fmt.Printf("index: %v & %v\n", index1, index2)
 		// fmt.Printf("%v >= %v\n", nums1[index1], nums2[index2])
 
 		if index1 > len(nums1)-1 {
@@ -37,7 +37,7 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 			}
 		}
 
-		fmt.Printf("merged: %v\n", merged)
+		// fmt.Printf("merged: %v\n", merged)
 
 		if index1 > len(nums1)-1 && index2 > len(nums2)-1 {
 			break
@@ -55,6 +55,6 @@ func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 		median = float64(merged[l/2])
 	}
 
-	fmt.Printf("median : %v\n\n", median)
+	// fmt.Printf("median : %v\n\n", median)
 	return median
 }
